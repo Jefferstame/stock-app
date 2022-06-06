@@ -5,6 +5,7 @@ const app = express();
 
 app.get('/', (req, resp) => {
 console.log("Peticion recibida")
+process.env.PASSWORD
 resp.send("<h1>Hola Mundo con Nodemon!!!</h1>")
 })
 
