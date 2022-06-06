@@ -1,0 +1,22 @@
+{
+  "name": "stock-app",
+  "version": "1.0.0",
+  "description": "Aplicaciòn FULL STACK en vivo",
+  "main": "app.js",
+  "author": "Jefferson Bailon",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "false"
+  ],
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
